@@ -9,9 +9,9 @@ public class App {
     public static void main(String[] args) throws ServletException, LifecycleException {
         System.out.println("init tomcat");
         Tomcat tomcat = new Tomcat();
-        tomcat.setPort(8006);
+        tomcat.setPort(8090);
 
-        tomcat.addWebapp("/", "C:\\Users\\duoyi\\Desktop\\ipa");
+        tomcat.addWebapp("/", "C:\\Users\\11329\\Desktop\\aa");
         tomcat.start();
         tomcat.getServer().await();
     }
